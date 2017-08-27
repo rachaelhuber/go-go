@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="MergeSorterFeature.cs" />
     <Compile Include="QuickSorterFeature.cs" />
     <Compile Include="SelectionSorterFeature.cs" />
     <Compile Include="BubbleSorterFeature.cs" />

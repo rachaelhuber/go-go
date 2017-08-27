@@ -10,7 +10,6 @@ namespace data_structures.Sorting
 		// And so on
 		// Swap if required
 		// O(n2)
-
 		public int[] Sort(int[] array)
 		{
 			Console.Out.WriteLine(string.Join(",", array));
