@@ -10,3 +10,5 @@ Sorting:
 * MergeSort - Runtime: O(nlogn) average and worst case. Needs a lot of extra memory
 
 Searching:
+* Depth First Search (DFS)
+* Breadth First Search (BFS)
