@@ -7,39 +7,33 @@
 
 	public class BreadthFirstSearcher
 	{
-		public string[] Search(Graph graph)
+		public string[] PrintOrder(Graph graph)
 		{
-			var order = new List<string>();
+			var printOrder = new List<string>();
 			var queue = new Queue();
+			var visited = new HashSet<string>();
 
-			var root = graph.root;
-			NavigateAndAddToPrintOrder(order, queue, root);
-
-			return order.ToArray();
-		}
-
-		private static void NavigateAndAddToPrintOrder(List<string> order, Queue queue, GraphNode node)
-		{
-			order.Add(node.name);
-
-			foreach (var child in node.children)
+			queue.Enqueue(graph.root);
+			
+			while (queue.Count > 0)
 			{
-				if (order.Contains(child.name) || queue.ToArray().Any(n => ((GraphNode)n).name == child.name))
+				var next = (GraphNode)queue.Dequeue();
+
+				if (visited.Contains(next.name))
 				{
 					continue;
 				}
-	
-				queue.Enqueue(child);
+
+				printOrder.Add(next.name);
+				visited.Add(next.name);
+
+				foreach (var child in next.children)
+				{
+					queue.Enqueue(child);
+				}				
 			}
 
-			if (queue.Count == 0)
-			{
-				return;
-			}
-
-			var next = queue.Dequeue();
-
-			NavigateAndAddToPrintOrder(order, queue, (GraphNode)next);
+			return printOrder.ToArray();
 		}
 	}
 }

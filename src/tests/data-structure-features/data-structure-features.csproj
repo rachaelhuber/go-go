@@ -33,13 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BinarySearchFeature.cs" />
     <Compile Include="DepthFirstSearcherFeature.cs" />
     <Compile Include="BreadthFirstSearcherFeature.cs" />
     <Compile Include="MergeSorterFeature.cs" />
     <Compile Include="QuickSorterFeature.cs" />
     <Compile Include="SelectionSorterFeature.cs" />
     <Compile Include="BubbleSorterFeature.cs" />
-    <Compile Include="CalculatorFeature.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

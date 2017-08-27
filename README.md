@@ -12,3 +12,4 @@ Sorting:
 Searching:
 * Depth First Search (DFS)
 * Breadth First Search (BFS)
+* Binary Search - using Array

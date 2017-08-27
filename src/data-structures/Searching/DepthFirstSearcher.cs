@@ -5,7 +5,7 @@
 
 	public class DepthFirstSearcher
 	{
-		public string[] Search(Graph graph)
+		public string[] PrintOrder(Graph graph)
 		{
 			var order = new List<string>();
 

@@ -44,7 +44,7 @@
 			"When I do a breadth first search".x(() =>
 			{
 				var searcher = new DepthFirstSearcher();
-				order = searcher.Search(graph);
+				order = searcher.PrintOrder(graph);
 			});
 
 			"Then the print order is as expected".x(() =>
