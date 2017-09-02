@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BinarySearchFeature.cs" />
+    <Compile Include="BuildOrderFeature.cs" />
     <Compile Include="DepthFirstSearcherFeature.cs" />
     <Compile Include="BreadthFirstSearcherFeature.cs" />
     <Compile Include="MergeSorterFeature.cs" />

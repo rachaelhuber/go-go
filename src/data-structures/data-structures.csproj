@@ -38,6 +38,9 @@
     <Compile Include="DataStructures\Graph.cs" />
     <Compile Include="DataStructures\Tree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Questions\BuildOrderCalculator.cs" />
+    <Compile Include="Questions\ProjectGraph.cs" />
+    <Compile Include="Questions\Project.cs" />
     <Compile Include="Searching\BinarySearcher.cs" />
     <Compile Include="Searching\BreadthFirstSearcher.cs" />
     <Compile Include="Searching\DepthFirstSearcher.cs" />
