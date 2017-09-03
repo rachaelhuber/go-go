@@ -18,7 +18,7 @@ Data Structures:
 * Trees // TODO
 * Tries // TODO
 * Graphs
-* Stacks // TODO
+* Stacks
 * Queues // TODO
 * Heaps
 * Vector / Array Lists // TODO

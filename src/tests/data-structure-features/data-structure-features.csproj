@@ -37,6 +37,7 @@
     <Compile Include="BuildOrderFeature.cs" />
     <Compile Include="DepthFirstSearcherFeature.cs" />
     <Compile Include="BreadthFirstSearcherFeature.cs" />
+    <Compile Include="StackFeature.cs" />
     <Compile Include="LinkedListFeature.cs" />
     <Compile Include="MergeSorterFeature.cs" />
     <Compile Include="QuickSorterFeature.cs" />
