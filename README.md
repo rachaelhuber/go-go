@@ -14,7 +14,7 @@ Searching:
 * Binary Tree Search // TODO
 
 Data Structures:
-* Linked Lists // TODO
+* Linked Lists
 * Trees // TODO
 * Tries // TODO
 * Graphs
@@ -27,4 +27,4 @@ Data Structures:
 Concepts:
 * Bit Manipulation // TODO
 * Recursion
-* Dynamic Prgramming // TODO
+* Dynamic Programming // TODO

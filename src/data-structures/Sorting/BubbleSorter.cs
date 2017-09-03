@@ -4,7 +4,7 @@
 
 	public class BubbleSorter
 	{
-		// Bubble sort also callled sinking sort
+		// Bubble sort also called sinking sort
 		// Compares every adjacent item with the next
 		// Swaps them when neccessary
 		// O(n2)

@@ -37,6 +37,7 @@
     <Compile Include="BuildOrderFeature.cs" />
     <Compile Include="DepthFirstSearcherFeature.cs" />
     <Compile Include="BreadthFirstSearcherFeature.cs" />
+    <Compile Include="LinkedListFeature.cs" />
     <Compile Include="MergeSorterFeature.cs" />
     <Compile Include="QuickSorterFeature.cs" />
     <Compile Include="SelectionSorterFeature.cs" />
@@ -44,6 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="System" />
     <Reference Include="Xbehave.Core, Version=2.1.4.0, Culture=neutral, PublicKeyToken=e4957f48888f9fe8, processorArchitecture=MSIL">
       <HintPath>..\..\..\Packages\Xbehave.Core.2.1.4\lib\portable-net45\Xbehave.Core.dll</HintPath>
     </Reference>
